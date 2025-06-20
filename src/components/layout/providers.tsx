@@ -5,6 +5,7 @@ import { WindowSizeProvider } from "@/context/WindowSizeContext";
 import { HtmlFontSizeProvider } from "@/context/HtmlFontSizeContext";
 import { AbstractIntlMessages, NextIntlClientProvider } from "next-intl";
 import { UpdateProvider } from "@/context/UpdateContext";
+import { CartProvider } from "../context/cart-context";
 export default function Providers({
   children,
   locale,
@@ -20,7 +21,9 @@ export default function Providers({
         <WindowSizeProvider>
           <HtmlFontSizeProvider>
             <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-              <UpdateProvider>{children}</UpdateProvider>
+              <UpdateProvider>
+                <CartProvider>{children}</CartProvider>
+              </UpdateProvider>
             </ThemeProvider>
           </HtmlFontSizeProvider>
         </WindowSizeProvider>

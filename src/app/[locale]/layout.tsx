@@ -6,11 +6,13 @@ import { Footer } from "@/components/footer/footer";
 import { GeistSans } from "geist/font/sans";
 import { Toaster } from "sonner";
 import { getMessages } from "next-intl/server";
+import { CartDrawerButton } from "@/components/commerce-ui/cart-drawer";
 
-const APP_NAME = "Biomob";
-const APP_DEFAULT_TITLE = "Biomob";
-const APP_TITLE_TEMPLATE = "%s";
-const APP_DESCRIPTION = "Biomob!";
+const APP_NAME = "Per Tutti Gourmet";
+const APP_DEFAULT_TITLE = "Per Tutti Gourmet - Hamburgueria Artesanal em Arraial";
+const APP_TITLE_TEMPLATE = "%s | Per Tutti Gourmet";
+const APP_DESCRIPTION =
+  "Descubra os melhores hambúrgueres artesanais de Arraial na Per Tutti Gourmet. Ingredientes frescos, combos especiais e sabor incomparável!";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_FRONTEND_URL || "http://localhost:3000"),
@@ -66,6 +68,7 @@ export default async function RootLayout({
         <Providers messages={messages} locale={resolvedParams.locale}>
           {/* <CombinedHeader locale={resolvedParams.locale} /> */}
           {children}
+          <CartDrawerButton />
           <Toaster />
           <Footer />
         </Providers>

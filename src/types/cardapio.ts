@@ -1,5 +1,3 @@
-// Tipos para produtos do cardápio Per Tutti Gourmet
-
 export interface Opcao {
   nome: string;
   descricao?: string;

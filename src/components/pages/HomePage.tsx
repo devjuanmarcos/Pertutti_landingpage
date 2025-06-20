@@ -8,14 +8,24 @@ import ProductCard_02 from "@/components/commerce-ui/product-card-02";
 import destaquesJson from "@/data/destaques.json";
 import maisVendidosJson from "@/data/mais_vendidos.json";
 import type { CardapioDestaques, CardapioMaisVendidos } from "@/types/cardapio";
+import { useState } from "react";
+import { ProductCustomizationModal } from "@/components/commerce-ui/product-customization-modal";
+import type { ProdutoDestaque } from "@/types/cardapio";
 
 export const HomePage = () => {
   const cardapio: CardapioDestaques = destaquesJson as CardapioDestaques;
   const mais_vendidos: CardapioMaisVendidos = maisVendidosJson as CardapioMaisVendidos;
+  const [modalOpen, setModalOpen] = useState(false);
+  const [produtoSelecionado, setProdutoSelecionado] = useState<ProdutoDestaque | null>(null);
+
+  const handleOpenModal = (produto: ProdutoDestaque) => {
+    setProdutoSelecionado(produto);
+    setModalOpen(true);
+  };
+
   return (
     <div className="flex flex-col gap-[4rem] min-h-screen">
       <MainBanner />
-
       <div className="flex flex-col gap-[4rem] max-w-[76.8125rem] w-full mx-auto max-xl:max-w-[90vw]">
         <Separator className="bg-primary" />
         <section className="flex flex-col gap-6 items-center justify-center w-full relative">
@@ -49,8 +59,8 @@ export const HomePage = () => {
                 shippingText=""
                 rating={5}
                 reviewCount={0}
-                onAddToCart={() => {}}
-                onBuyNow={() => {}}
+                onAddToCart={() => handleOpenModal(produto)}
+                onBuyNow={() => handleOpenModal(produto)}
               />
             ))}
           </div>
@@ -89,8 +99,8 @@ export const HomePage = () => {
                 shippingText=""
                 rating={5}
                 reviewCount={0}
-                onAddToCart={() => {}}
-                onBuyNow={() => {}}
+                onAddToCart={() => handleOpenModal(produto)}
+                onBuyNow={() => handleOpenModal(produto)}
                 col={true}
               />
             ))}
@@ -100,6 +110,17 @@ export const HomePage = () => {
       <Separator className="bg-primary" />
       <ImageTextBanner />
       <Separator className="bg-primary" />
+      {produtoSelecionado && (
+        <ProductCustomizationModal
+          open={modalOpen}
+          onOpenChange={setModalOpen}
+          produto={produtoSelecionado}
+          onSubmit={(products) => {
+            console.log("Produtos personalizados:", products);
+            setModalOpen(false);
+          }}
+        />
+      )}
     </div>
   );
 };
