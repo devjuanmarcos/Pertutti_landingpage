@@ -1,0 +1,813 @@
+{
+  "destaques": [
+    {
+      "nome": "X bacon",
+      "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291529_6K51_i.jpg",
+      "descricao": "Pão de sua preferência, maionese, 1 burguer Blend especial da casa 150 gr, escolha o seu queijo (cheddar, prato ou muçarela), bacon, cebola e molho barbecue",
+      "serve_pessoas": 1,
+      "preco": 22.90,
+      "opcoes_personalizacao": [
+        {
+          "titulo": "Escolha o seu Pão",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Pão Brioche"
+            },
+            {
+              "nome": "Pão de Gergelim"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Proteína",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Hambúrguer Bovino 120 gr",
+              "descricao": "Hambúrguer Bovino Blend especial da casa 120 gr",
+              "preco_adicional": 8.00
+            }
+          ]
+        },
+        {
+          "titulo": "Ponto da Carne",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Ao Ponto"
+            },
+            {
+              "nome": "Bem Passado"
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha o seu Queijo",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Cheddar"
+            },
+            {
+              "nome": "Prato"
+            },
+            {
+              "nome": "Muçarela"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Queijo",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Queijo Cheddar",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Cheddar Cremoso",
+              "descricao": "Cheddar Cremoso",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Muçarela derretida na chapa",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Catupiry",
+              "descricao": "Catupiry Original",
+              "preco_adicional": 6.00
+            }
+          ]
+        },
+        {
+          "titulo": "Adicionais extras",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Bacon",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Picles",
+              "preco_adicional": 4.00
+            },
+            {
+              "nome": "Cebola",
+              "preco_adicional": 1.50
+            },
+            {
+              "nome": "Tomate",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Alface",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Cebola Caramelizada",
+              "preco_adicional": 3.50
+            },
+            {
+              "nome": "Ovo",
+              "preco_adicional": 3.50
+            },
+            {
+              "nome": "Onion Rings",
+              "descricao": "3 unidades",
+              "preco_adicional": 5.00
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha seu Molho extra",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 3,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Maionese",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Ketchup",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Mostarda",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Barbecue",
+              "preco_adicional": 2.00
+            }
+          ]
+        },
+        {
+          "titulo": "Transforme seu Lanche em um Combo",
+          "tipo": "unica_opcao",
+          "max_opcoes": 1,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Combo Batata Frita + Coca Cola",
+              "descricao": "Combo 1 Batata frita individual 150 gr + Coca Cola 350 ml",
+              "preco_adicional": 15.99
+            },
+            {
+              "nome": "Combo Onion Rings + Coca Cola",
+              "descricao": "1 Porção de Onion Rings indidual 150 gr + 1 Coca Cola 350ml",
+              "preco_adicional": 17.99
+            }
+          ]
+        },
+        {
+          "titulo": "Bebidas",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Coca-Cola Original 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Coca-Cola sem Açúcar 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Refrigerante Guaraná Antarctica 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Cerveja Corona Extra 330ml",
+              "descricao": "Produto para maiores de 18 anos",
+              "preco_adicional": 12.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Catupi King",
+      "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291709_17H1_i.jpg",
+      "descricao": "Pão de sua preferência, 1 burguer Blend especial da casa 150 gramas, escolha o seu queijo (cheddar, prato ou muçarela), Catupiry Original e bacon",
+      "serve_pessoas": 1,
+      "preco_promocional": 26.90,
+      "preco_original": 32.90,
+      "opcoes_personalizacao": [
+        {
+          "titulo": "Escolha o seu Pão",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Pão Brioche"
+            },
+            {
+              "nome": "Pão de Gergelim"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Proteína",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Hambúrguer Bovino 120 gr",
+              "descricao": "Hambúrguer Bovino Blend especial da casa 120 gr",
+              "preco_adicional": 8.00
+            }
+          ]
+        },
+        {
+          "titulo": "Ponto da Carne",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Ao Ponto"
+            },
+            {
+              "nome": "Bem Passado"
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha o seu Queijo",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Cheddar"
+            },
+            {
+              "nome": "Prato"
+            },
+            {
+              "nome": "Muçarela"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Queijo",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Queijo Cheddar",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Cheddar Cremoso",
+              "descricao": "Cheddar Cremoso",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Muçarela derretida na chapa",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Catupiry",
+              "descricao": "Catupiry Original",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Queijo prato",
+              "preco_adicional": 6.00
+            }
+          ]
+        },
+        {
+          "titulo": "Adicionais",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Bacon",
+              "descricao": "2 fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Picles",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Cebola",
+              "preco_adicional": 1.50
+            },
+            {
+              "nome": "Tomate",
+              "preco_adicional": 1.00
+            },
+            {
+              "nome": "Alface",
+              "preco_adicional": 1.50
+            },
+            {
+              "nome": "Cebola Caramelizada",
+              "preco_adicional": 3.00
+            },
+            {
+              "nome": "Ovo",
+              "preco_adicional": 3.00
+            },
+            {
+              "nome": "Onion Rings",
+              "preco_adicional": 5.00
+            },
+            {
+              "nome": "Calabresa",
+              "preco_adicional": 5.00
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha seu Molho extra",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 3,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Maionese",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Ketchup",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Mostarda",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Barbecue",
+              "preco_adicional": 2.00
+            }
+          ]
+        },
+        {
+          "titulo": "Transforme seu Lanche em um Combo",
+          "tipo": "unica_opcao",
+          "max_opcoes": 1,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Combo Batata Frita",
+              "descricao": "Combo 1 Batata frita individual + Coca Cola 350 ml",
+              "preco_adicional": 15.99
+            },
+            {
+              "nome": "Combo Onion Rings",
+              "descricao": "1 Porção de Onion Rings indidual + 1 Coca Cola 350ml",
+              "preco_adicional": 17.99
+            }
+          ]
+        },
+        {
+          "titulo": "Bebidas",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Coca-Cola Original 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Coca-Cola sem Açúcar 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Refrigerante Guaraná Antarctica 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Duplo X - Salada",
+      "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291642_UJP1_i.jpg",
+      "descricao": "Pão de sua preferência, 2 burguer Blend especial da casa 120 gr, queijo cheddar, cebola, alface, tomate, ketchup e maionese",
+      "serve_pessoas": 1,
+      "preco_promocional": 27.90,
+      "preco_original": 31.90,
+      "opcoes_personalizacao": [
+        {
+          "titulo": "Escolha o seu Pão",
+          "tipo": "unica_opcao",
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Pão Brioche"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Proteína",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Hambúrguer Bovino 120 gr",
+              "descricao": "Hambúrguer Bovino Blend especial da casa 120 gr",
+              "preco_adicional": 8.00
+            }
+          ]
+        },
+        {
+          "titulo": "Ponto da Carne",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Ao Ponto"
+            },
+            {
+              "nome": "Bem Passado"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Queijo",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Queijo Cheddar",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Cheddar Cremoso",
+              "descricao": "Cheddar Cremoso",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Muçarela derretida na chapa",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Catupiry",
+              "descricao": "Catupiry Original",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Queijo prato",
+              "preco_adicional": 6.00
+            }
+          ]
+        },
+        {
+          "titulo": "Adicionais extras",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Bacon",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Picles",
+              "preco_adicional": 4.00
+            },
+            {
+              "nome": "Cebola",
+              "preco_adicional": 1.50
+            },
+            {
+              "nome": "Tomate",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Alface",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Cebola Caramelizada",
+              "preco_adicional": 3.50
+            },
+            {
+              "nome": "Ovo",
+              "preco_adicional": 3.50
+            },
+            {
+              "nome": "Onion Rings",
+              "preco_adicional": 5.00
+            },
+            {
+              "nome": "Calabresa",
+              "preco_adicional": 5.00
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha seu Molho extra",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 3,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Maionese",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Ketchup",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Mostarda",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Barbecue",
+              "preco_adicional": 2.00
+            }
+          ]
+        },
+        {
+          "titulo": "Transforme seu Lanche em um Combo",
+          "tipo": "unica_opcao",
+          "max_opcoes": 1,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Combo Batata Frita + Coca Cola",
+              "descricao": "Combo 1 Batata frita individual 150 gr + Coca Cola 350 ml",
+              "preco_adicional": 15.99
+            },
+            {
+              "nome": "Combo Onion Rings + Coca Cola",
+              "descricao": "1 Porção de Onion Rings indidual 150 gr + 1 Coca Cola 350ml",
+              "preco_adicional": 17.99
+            }
+          ]
+        },
+        {
+          "titulo": "Bebidas",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Coca-Cola Original 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.90
+            },
+            {
+              "nome": "Coca-Cola sem Açúcar 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.90
+            },
+            {
+              "nome": "Refrigerante Guaraná Antarctica 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.90
+            },
+            {
+              "nome": "Fanta Laranja 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "X-Salada Picles",
+      "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202302031920_RYJU_i.jpg",
+      "descricao": "Pão de sua preferência, 1 burguer Blend especial da casa 150 gr, escolha o seu queijo (cheddar, prato ou muçarela),Picles, cebola, alface, tomate, ketchup e maionese . O melhor do planeta",
+      "serve_pessoas": 1,
+      "preco_promocional": 23.90,
+      "preco_original": 26.90,
+      "opcoes_personalizacao": [
+        {
+          "titulo": "Escolha o seu Pão",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Pão Brioche"
+            },
+            {
+              "nome": "Pão de Gergelim"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Proteína",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Hambúrguer Bovino 120 gr",
+              "descricao": "Hambúrguer Bovino Blend especial da casa 120 gr",
+              "preco_adicional": 8.00
+            }
+          ]
+        },
+        {
+          "titulo": "Ponto da Carne",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Ao Ponto"
+            },
+            {
+              "nome": "Bem Passado"
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha o seu Queijo",
+          "tipo": "unica_opcao",
+          "obrigatorio": true,
+          "opcoes": [
+            {
+              "nome": "Cheddar"
+            },
+            {
+              "nome": "Prato"
+            },
+            {
+              "nome": "Muçarela"
+            }
+          ]
+        },
+        {
+          "titulo": "Adicione + Queijo",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 5,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Queijo Cheddar",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Cheddar Cremoso",
+              "descricao": "Cheddar Cremoso",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Muçarela derretida na chapa",
+              "descricao": "2 Fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Catupiry",
+              "descricao": "Catupiry Original",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Queijo prato",
+              "preco_adicional": 6.00
+            }
+          ]
+        },
+        {
+          "titulo": "Adicionais",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Bacon",
+              "descricao": "2 fatias",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Picles",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Cebola",
+              "preco_adicional": 1.50
+            },
+            {
+              "nome": "Tomate",
+              "preco_adicional": 1.00
+            },
+            {
+              "nome": "Alface",
+              "preco_adicional": 1.50
+            },
+            {
+              "nome": "Cebola Caramelizada",
+              "preco_adicional": 3.00
+            },
+            {
+              "nome": "Ovo",
+              "preco_adicional": 3.00
+            },
+            {
+              "nome": "Onion Rings",
+              "preco_adicional": 5.00
+            },
+            {
+              "nome": "Calabresa",
+              "preco_adicional": 5.00
+            }
+          ]
+        },
+        {
+          "titulo": "Escolha seu Molho extra",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 3,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Maionese",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Ketchup",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Mostarda",
+              "preco_adicional": 2.00
+            },
+            {
+              "nome": "Barbecue",
+              "preco_adicional": 2.00
+            }
+          ]
+        },
+        {
+          "titulo": "Transforme seu Lanche em um Combo",
+          "tipo": "unica_opcao",
+          "max_opcoes": 1,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Combo Batata Frita",
+              "descricao": "Combo 1 Batata frita individual + Coca Cola 350 ml",
+              "preco_adicional": 15.99
+            },
+            {
+              "nome": "Combo Onion Rings",
+              "descricao": "1 Porção de Onion Rings indidual + 1 Coca Cola 350ml",
+              "preco_adicional": 17.99
+            }
+          ]
+        },
+        {
+          "titulo": "Bebidas",
+          "tipo": "multipla_opcao",
+          "max_opcoes": 10,
+          "obrigatorio": false,
+          "opcoes": [
+            {
+              "nome": "Coca-Cola Original 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Coca-Cola sem Açúcar 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            },
+            {
+              "nome": "Refrigerante Guaraná Antarctica 350ml",
+              "descricao": "Lata 350ml",
+              "preco_adicional": 6.00
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

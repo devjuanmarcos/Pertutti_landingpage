@@ -17,7 +17,8 @@ const carouselSlides: CarouselSlide[] = [
     id: 1,
     title: "Aplicativo para o Aluno",
     description: "Tenha seus treinos, lembretes, notificações e rankings diretamente no celular.",
-    imageSrc: "/img/wallpaper/1.jpeg",
+    imageSrc:
+      "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291605_0Q60_i.jpg",
   },
   {
     id: 2,

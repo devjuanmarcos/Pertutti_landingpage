@@ -4,10 +4,10 @@
 
 @layer base {
   * {
-    --brand-primary-dark: 358, 83%, 33%;
-    --brand-primary-mid: 358, 77%, 49%;
-    --brand-primary-light: 357, 84%, 67%;
-    --brand-primary-lightest: 0, 100%, 92%;
+    --brand-primary-dark: 45, 100%, 40%;   /* Amarelo escuro */
+    --brand-primary-mid: 48, 98%, 53%;    /* Amarelo principal */
+    --brand-primary-light: 50, 100%, 70%; /* Amarelo claro */
+    --brand-primary-lightest: 55, 100%, 90%; /* Amarelo bem claro */
 
     --brand-secondary-dark: 274, 37%, 32%;
     --brand-secondary-mid: 275, 37%, 50%;
@@ -87,12 +87,12 @@
     --background: var(--neutral-darkest);
     --background-hover: var(--neutral-dark);
     --foreground: var(--neutral-white);
-    --card: var(--neutral-dark);
+    --card: var(--neutral-black-opacity);
     --card-foreground: var(--neutral-lightest);
     --popover: var(--neutral-dark);
     --popover-foreground: var(--neutral-lightest);
-    --primary: var(--brand-primary-dark);
-    --primary-hover: var(--brand-primary-mid);
+    --primary: 48, 98%, 53%; /* Amarelo principal (mais claro no dark) */
+    --primary-hover: 45, 100%, 40%;
     --primary-foreground: var(--neutral-white);
     --secondary: var(--brand-secondary-dark);
     --secondary-foreground: var(--brand-secondary-lightest);

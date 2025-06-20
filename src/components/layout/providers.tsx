@@ -19,7 +19,7 @@ export default function Providers({
       <NextIntlClientProvider messages={messages} timeZone={"America/Sao_Paulo"} locale={locale}>
         <WindowSizeProvider>
           <HtmlFontSizeProvider>
-            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
               <UpdateProvider>{children}</UpdateProvider>
             </ThemeProvider>
           </HtmlFontSizeProvider>

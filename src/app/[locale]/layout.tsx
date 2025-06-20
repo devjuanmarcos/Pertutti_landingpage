@@ -64,7 +64,7 @@ export default async function RootLayout({
       {/* <Script defer data-domain="biomob.org" src="https://plausible.biomob.app/js/script.js" /> */}
       <body className={""}>
         <Providers messages={messages} locale={resolvedParams.locale}>
-          <CombinedHeader locale={resolvedParams.locale} />
+          {/* <CombinedHeader locale={resolvedParams.locale} /> */}
           {children}
           <Toaster />
           <Footer />

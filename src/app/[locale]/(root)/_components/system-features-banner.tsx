@@ -7,11 +7,11 @@ export const SystemFeaturesBanner = () => {
   return (
     <div className="flex flex-col gap-6 items-center justify-center w-full relative">
       <div className="flex flex-col w-full justify-center items-center max-w-[60.25rem] text-center">
-        <span className="body-title ">Funcionalidades do sistema</span>
-        <span className="heading-03-bold ">Diferenciais do sistema</span>
+        <span className="body-title ">Cardápio variado</span>
+        <span className="heading-03-bold ">Nossos destaques</span>
         <span className="body-title-light ">
-          Tudo que você e sua equipe precisam em um único sistema, com ferramentas pensadas para facilitar a gestão,
-          engajar os alunos e simplificar o dia a dia da sua unidade.
+          Da suculência do X Bacon ao sabor único do Catupi King, escolha entre hambúrgueres clássicos, especiais,
+          combos e acompanhamentos para todos os gostos!
         </span>
       </div>
       <div className="grid grid-cols-3 gap-6">
@@ -26,32 +26,32 @@ export const SystemFeaturesBanner = () => {
 const SystemFeaturesIconsCardsData = [
   {
     icon: MonitorSmartphone,
-    title: "Aplicativo para o Aluno",
-    description: "Tenha seus treinos, lembretes, notificações e rankings diretamente no celular.",
+    title: "X Bacon",
+    description: "Blend especial, queijo, bacon, cebola e molho barbecue.",
   },
   {
     icon: LayoutDashboard,
-    title: "Painel Web para Professores",
-    description: "Cada professor tem acesso à sua unidade, com controle de presença e alunos.",
+    title: "Catupi King",
+    description: "Blend especial, Catupiry Original, bacon e queijo à sua escolha.",
   },
   {
     icon: Shield,
-    title: "Gestão Segura e Completa",
-    description: "O administrador controla todas as unidades e professores com um painel centralizado.",
+    title: "Duplo X - Salada",
+    description: "Dois hambúrgueres, queijo cheddar, salada e molhos.",
   },
   {
     icon: DollarSign,
-    title: "Controle Financeiro",
-    description: "Visualize mensalidades, inadimplências e relatórios com poucos cliques.",
+    title: "Combos Especiais",
+    description: "Hambúrguer + batata + bebida por um preço especial.",
   },
   {
     icon: Calendar,
-    title: "Gestão de Eventos e Competições",
-    description: "Cadastre, organize e notifique os alunos sobre competições e eventos.",
+    title: "Promoções do Dia",
+    description: "Ofertas exclusivas e novidades toda semana.",
   },
   {
     icon: Medal,
-    title: "Rankings e Engajamento",
-    description: "Crie rankings semanais e mensais para estimular a participação dos alunos.",
+    title: "Monte do seu jeito",
+    description: "Escolha pães, queijos, adicionais e molhos para personalizar.",
   },
 ];
