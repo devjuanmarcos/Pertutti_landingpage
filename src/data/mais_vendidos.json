@@ -1,6 +1,7 @@
 {
   "mais_vendidos": [
     {
+      "id": "catupi-king",
       "nome": "Catupi King",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291709_17H1_i.jpg",
       "descricao": "Pão de sua preferência, 1 burguer Blend especial da casa 150 gramas, escolha o seu queijo (cheddar, prato ou muçarela), Catupiry Original e bacon",
@@ -8,19 +9,17 @@
       "preco": 32.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-catupi-king",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-catupi-king", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-catupi-king", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "adicionais-proteina-catupi-king",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -34,6 +33,7 @@
           ]
         },
         {
+          "id": "ponto-carne-catupi-king",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -47,6 +47,7 @@
           ]
         },
         {
+          "id": "queijo-catupi-king",
           "titulo": "Escolha o seu Queijo",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -63,6 +64,7 @@
           ]
         },
         {
+          "id": "adicionais-queijo-catupi-king",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -91,6 +93,7 @@
           ]
         },
         {
+          "id": "adicionais-extras-catupi-king",
           "titulo": "Adicionais extras",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -133,6 +136,7 @@
           ]
         },
         {
+          "id": "molho-extra-catupi-king",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -157,6 +161,7 @@
           ]
         },
         {
+          "id": "combo-catupi-king",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -175,6 +180,7 @@
           ]
         },
         {
+          "id": "bebidas-catupi-king",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -200,6 +206,7 @@
       ]
     },
     {
+      "id": "x-bacon-melhor",
       "nome": "X-Bacon ( O Melhor )",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291529_6K51_i.jpg",
       "descricao": "Pão de sua preferência, maionese, 1 burguer Blend especial da casa 120 gr, queijo, bacon, cebola e molho barbecue",
@@ -207,19 +214,17 @@
       "preco": 28.99,
       "opcoes_personalizacao": [
         {
+          "id": "pao-x-bacon-melhor",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-x-bacon-melhor", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-x-bacon-melhor", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "adicionais-proteina-x-bacon-melhor",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -233,6 +238,7 @@
           ]
         },
         {
+          "id": "ponto-carne-x-bacon-melhor",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -246,6 +252,7 @@
           ]
         },
         {
+          "id": "adicionais-queijo-x-bacon-melhor",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -274,6 +281,7 @@
           ]
         },
         {
+          "id": "adicionais-x-bacon-melhor",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -316,6 +324,7 @@
           ]
         },
         {
+          "id": "molho-extra-x-bacon-melhor",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -344,6 +353,7 @@
           ]
         },
         {
+          "id": "combo-x-bacon-melhor",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -362,6 +372,7 @@
           ]
         },
         {
+          "id": "bebidas-x-bacon-melhor",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -387,6 +398,7 @@
       ]
     },
     {
+      "id": "duplo-x-bacon-cheddar-cremoso",
       "nome": "Duplo X-Bacon Cheddar Cremoso",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202302181352_79u2_.jpeg",
       "descricao": "Pão de sua preferência, 2 burguer Blend especial da casa 120 gr, muuito queijo cheddar cremoso, bacon , cebola roxa, maionese e molho barbecue",
@@ -394,19 +406,17 @@
       "preco": 36.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-duplo-x-bacon-cheddar-cremoso", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-duplo-x-bacon-cheddar-cremoso", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "adicionais-proteina-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -420,6 +430,7 @@
           ]
         },
         {
+          "id": "ponto-carne-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -433,6 +444,7 @@
           ]
         },
         {
+          "id": "adicionais-queijo-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -461,6 +473,7 @@
           ]
         },
         {
+          "id": "adicionais-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -503,6 +516,7 @@
           ]
         },
         {
+          "id": "molho-extra-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -527,6 +541,7 @@
           ]
         },
         {
+          "id": "combo-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -545,6 +560,7 @@
           ]
         },
         {
+          "id": "bebidas-duplo-x-bacon-cheddar-cremoso",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -570,6 +586,7 @@
       ]
     },
     {
+      "id": "triplo-x-bacon",
       "nome": "Triplo X - Bacon",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202302181327_M3Ib_.jpeg",
       "descricao": "Pão de sua preferência, maionese, 3 burguer Blend especial da casa 120 gr cada, escolha o seu queijo (cheddar, prato ou muçarela), bacon, cebola e molho barbecue",
@@ -577,19 +594,17 @@
       "preco": 39.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-triplo-x-bacon",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-triplo-x-bacon", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-triplo-x-bacon", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "adicionais-proteina-triplo-x-bacon",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -603,6 +618,7 @@
           ]
         },
         {
+          "id": "ponto-carne-triplo-x-bacon",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -616,6 +632,7 @@
           ]
         },
         {
+          "id": "queijo-triplo-x-bacon",
           "titulo": "Escolha o seu Queijo",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -632,6 +649,7 @@
           ]
         },
         {
+          "id": "adicionais-queijo-triplo-x-bacon",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -660,6 +678,7 @@
           ]
         },
         {
+          "id": "adicionais-triplo-x-bacon",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -702,6 +721,7 @@
           ]
         },
         {
+          "id": "molho-extra-triplo-x-bacon",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -726,6 +746,7 @@
           ]
         },
         {
+          "id": "combo-triplo-x-bacon",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -744,6 +765,7 @@
           ]
         },
         {
+          "id": "bebidas-triplo-x-bacon",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -769,6 +791,7 @@
       ]
     },
     {
+      "id": "fish-burger",
       "nome": "Fish Burger",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202302042339_mt4nmvzi1tc.png",
       "descricao": "Pão de sua preferencia , Delicioso Filé de Peixe (Cavala) Empanado 200 gr , alface , tomate , cebola roxa e maionese artesanal",
@@ -776,19 +799,17 @@
       "preco": 29.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-fish-burger",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-fish-burger", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-fish-burger", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "adicionais-queijo-fish-burger",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -817,6 +838,7 @@
           ]
         },
         {
+          "id": "adicionais-fish-burger",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -859,6 +881,7 @@
           ]
         },
         {
+          "id": "molho-extra-fish-burger",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -883,6 +906,7 @@
           ]
         },
         {
+          "id": "combo-fish-burger",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -901,6 +925,7 @@
           ]
         },
         {
+          "id": "bebidas-fish-burger",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -926,6 +951,7 @@
       ]
     },
     {
+      "id": "terramar-burguer",
       "nome": "Terramar Burguer",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291822_71H5_i.jpg",
       "descricao": "A Combinação perfeita existe !!! Pão de sua preferência, alface, tomate, cebola, 1 burguer Blend especial da casa 150 gramas, queijo muçarela na chapa , Catupiry e deliciosos camarões selados na manteiga",
@@ -933,19 +959,17 @@
       "preco": 42.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-terramar-burguer",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-terramar-burguer", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-terramar-burguer", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "adicionais-proteina-terramar-burguer",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -959,6 +983,7 @@
           ]
         },
         {
+          "id": "ponto-carne-terramar-burguer",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -972,6 +997,7 @@
           ]
         },
         {
+          "id": "adicionais-queijo-terramar-burguer",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -1004,6 +1030,7 @@
           ]
         },
         {
+          "id": "adicionais-terramar-burguer",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -1049,6 +1076,7 @@
           ]
         },
         {
+          "id": "molho-extra-terramar-burguer",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -1073,6 +1101,7 @@
           ]
         },
         {
+          "id": "combo-terramar-burguer",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -1091,6 +1120,7 @@
           ]
         },
         {
+          "id": "bebidas-terramar-burguer",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,

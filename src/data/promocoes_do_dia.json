@@ -1,6 +1,7 @@
 {
   "promocoes_do_dia": [
     {
+      "id": "x-bacon-melhor-promo",
       "nome": "X-Bacon ( O Melhor )",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291529_6K51_i.jpg",
       "descricao": "Pão de sua preferência, maionese, 1 burguer Blend especial da casa 150 gr, escolha o seu queijo (cheddar, prato ou muçarela), bacon, cebola e molho barbecue",
@@ -9,19 +10,17 @@
       "preco_original": 28.99,
       "opcoes_personalizacao": [
         {
+          "id": "pao-x-bacon-melhor-promo",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
           "opcoes": [
-            {
-              "nome": "Pão Brioche"
-            },
-            {
-              "nome": "Pão de Gergelim"
-            }
+            { "id": "pao-brioche-x-bacon-melhor-promo", "nome": "Pão Brioche" },
+            { "id": "pao-gergelim-x-bacon-melhor-promo", "nome": "Pão de Gergelim" }
           ]
         },
         {
+          "id": "proteina-x-bacon-melhor-promo",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -35,6 +34,7 @@
           ]
         },
         {
+          "id": "ponto-carne-x-bacon-melhor-promo",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -48,6 +48,7 @@
           ]
         },
         {
+          "id": "queijo-x-bacon-melhor-promo",
           "titulo": "Escolha o seu Queijo",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -64,6 +65,7 @@
           ]
         },
         {
+          "id": "adicional-queijo-x-bacon-melhor-promo",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -92,6 +94,7 @@
           ]
         },
         {
+          "id": "adicionais-extras-x-bacon-melhor-promo",
           "titulo": "Adicionais extras",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -133,6 +136,7 @@
           ]
         },
         {
+          "id": "molho-extra-x-bacon-melhor-promo",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -157,6 +161,7 @@
           ]
         },
         {
+          "id": "combo-x-bacon-melhor-promo",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -175,6 +180,7 @@
           ]
         },
         {
+          "id": "bebidas-x-bacon-melhor-promo",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -205,6 +211,7 @@
       ]
     },
     {
+      "id": "catupi-king-promo",
       "nome": "Catupi King",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291709_17H1_i.jpg",
       "descricao": "Pão de sua preferência, 1 burguer Blend especial da casa 150 gramas, escolha o seu queijo (cheddar, prato ou muçarela), Catupiry Original e bacon",
@@ -213,6 +220,7 @@
       "preco_original": 32.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-catupi-king-promo",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -226,6 +234,7 @@
           ]
         },
         {
+          "id": "proteina-catupi-king-promo",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -239,6 +248,7 @@
           ]
         },
         {
+          "id": "ponto-carne-catupi-king-promo",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -252,6 +262,7 @@
           ]
         },
         {
+          "id": "queijo-catupi-king-promo",
           "titulo": "Escolha o seu Queijo",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -268,6 +279,7 @@
           ]
         },
         {
+          "id": "adicional-queijo-catupi-king-promo",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -300,6 +312,7 @@
           ]
         },
         {
+          "id": "adicionais-catupi-king-promo",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -345,6 +358,7 @@
           ]
         },
         {
+          "id": "molho-extra-catupi-king-promo",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -369,6 +383,7 @@
           ]
         },
         {
+          "id": "combo-catupi-king-promo",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -387,6 +402,7 @@
           ]
         },
         {
+          "id": "bebidas-catupi-king-promo",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -412,6 +428,7 @@
       ]
     },
     {
+      "id": "x-salada-picles-promo",
       "nome": "X-Salada Picles",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202302031920_RYJU_i.jpg",
       "descricao": "Pão de sua preferência, 1 burguer Blend especial da casa 150 gr, escolha o seu queijo (cheddar, prato ou muçarela),Picles, cebola, alface, tomate, ketchup e maionese . O melhor do planeta",
@@ -420,6 +437,7 @@
       "preco_original": 26.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-x-salada-picles-promo",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -433,6 +451,7 @@
           ]
         },
         {
+          "id": "proteina-x-salada-picles-promo",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -446,6 +465,7 @@
           ]
         },
         {
+          "id": "ponto-carne-x-salada-picles-promo",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -459,6 +479,7 @@
           ]
         },
         {
+          "id": "queijo-x-salada-picles-promo",
           "titulo": "Escolha o seu Queijo",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -475,6 +496,7 @@
           ]
         },
         {
+          "id": "adicional-queijo-x-salada-picles-promo",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -507,6 +529,7 @@
           ]
         },
         {
+          "id": "adicionais-x-salada-picles-promo",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -552,6 +575,7 @@
           ]
         },
         {
+          "id": "molho-extra-x-salada-picles-promo",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -576,6 +600,7 @@
           ]
         },
         {
+          "id": "combo-x-salada-picles-promo",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -594,6 +619,7 @@
           ]
         },
         {
+          "id": "bebidas-x-salada-picles-promo",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -619,6 +645,7 @@
       ]
     },
     {
+      "id": "triplo-x-bacon-promo",
       "nome": "Triplo X - Bacon",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202302181327_M3Ib_.jpeg",
       "descricao": "Pão de sua preferência, maionese, 3 burguer Blend especial da casa 120 gr cada, escolha o seu queijo (cheddar, prato ou muçarela), bacon, cebola roxa e molho barbecue",
@@ -627,6 +654,7 @@
       "preco_original": 39.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-triplo-x-bacon-promo",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -640,6 +668,7 @@
           ]
         },
         {
+          "id": "proteina-triplo-x-bacon-promo",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -653,6 +682,7 @@
           ]
         },
         {
+          "id": "ponto-carne-triplo-x-bacon-promo",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -666,6 +696,7 @@
           ]
         },
         {
+          "id": "queijo-triplo-x-bacon-promo",
           "titulo": "Escolha o seu Queijo",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -682,6 +713,7 @@
           ]
         },
         {
+          "id": "adicional-queijo-triplo-x-bacon-promo",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -710,6 +742,7 @@
           ]
         },
         {
+          "id": "adicionais-triplo-x-bacon-promo",
           "titulo": "Adicionais",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -752,6 +785,7 @@
           ]
         },
         {
+          "id": "molho-extra-triplo-x-bacon-promo",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -776,6 +810,7 @@
           ]
         },
         {
+          "id": "combo-triplo-x-bacon-promo",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -794,6 +829,7 @@
           ]
         },
         {
+          "id": "bebidas-triplo-x-bacon-promo",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -824,6 +860,7 @@
       ]
     },
     {
+      "id": "x-bacon-cheddar-cremoso-promo",
       "nome": "X-Bacon Cheddar Cremoso",
       "imagem": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/ffca441a-0f63-48b9-bea0-c4364a8fd3f2/202211291605_0Q60_i.jpg",
       "descricao": "Pão de sua preferência, 1 burguer Blend especial da casa 150 gr, queijo cheddar cremoso, bacon crispy, cebola, maionese e molho barbecue",
@@ -832,6 +869,7 @@
       "preco_original": 32.9,
       "opcoes_personalizacao": [
         {
+          "id": "pao-x-bacon-cheddar-cremoso-promo",
           "titulo": "Escolha o seu Pão",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -845,6 +883,7 @@
           ]
         },
         {
+          "id": "proteina-x-bacon-cheddar-cremoso-promo",
           "titulo": "Adicione + Proteína",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -858,6 +897,7 @@
           ]
         },
         {
+          "id": "ponto-carne-x-bacon-cheddar-cremoso-promo",
           "titulo": "Ponto da Carne",
           "tipo": "unica_opcao",
           "obrigatorio": true,
@@ -871,6 +911,7 @@
           ]
         },
         {
+          "id": "adicional-queijo-x-bacon-cheddar-cremoso-promo",
           "titulo": "Adicione + Queijo",
           "tipo": "multipla_opcao",
           "max_opcoes": 5,
@@ -903,6 +944,7 @@
           ]
         },
         {
+          "id": "adicionais-extras-x-bacon-cheddar-cremoso-promo",
           "titulo": "Adicionais extras",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,
@@ -947,6 +989,7 @@
           ]
         },
         {
+          "id": "molho-extra-x-bacon-cheddar-cremoso-promo",
           "titulo": "Escolha seu Molho extra",
           "tipo": "multipla_opcao",
           "max_opcoes": 3,
@@ -971,6 +1014,7 @@
           ]
         },
         {
+          "id": "combo-x-bacon-cheddar-cremoso-promo",
           "titulo": "Transforme seu Lanche em um Combo",
           "tipo": "unica_opcao",
           "max_opcoes": 1,
@@ -989,6 +1033,7 @@
           ]
         },
         {
+          "id": "bebidas-x-bacon-cheddar-cremoso-promo",
           "titulo": "Bebidas",
           "tipo": "multipla_opcao",
           "max_opcoes": 10,

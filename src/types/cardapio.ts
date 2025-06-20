@@ -1,4 +1,5 @@
 export interface Opcao {
+  id: string;
   nome: string;
   descricao?: string;
   preco_adicional?: number;
@@ -13,6 +14,7 @@ export interface GrupoOpcoesPersonalizacao {
 }
 
 export interface ProdutoDestaque {
+  id: string;
   nome: string;
   imagem: string;
   descricao: string;
