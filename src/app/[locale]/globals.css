@@ -4,8 +4,8 @@
 
 @layer base {
   * {
-    --brand-primary-dark: 45, 100%, 40%;   /* Amarelo escuro */
-    --brand-primary-mid: 48, 98%, 53%;    /* Amarelo principal */
+    --brand-primary-dark: 45, 100%, 40%; /* Amarelo escuro */
+    --brand-primary-mid: 48, 98%, 53%; /* Amarelo principal */
     --brand-primary-light: 50, 100%, 70%; /* Amarelo claro */
     --brand-primary-lightest: 55, 100%, 90%; /* Amarelo bem claro */
 
@@ -101,6 +101,7 @@
     --accent: var(--brand-terciary-dark);
     --accent-foreground: var(--brand-terciary-lightest);
     --destructive: var(--funcional-error-dark);
+    --destructive-hover: var(--funcional-error-mid);
     --destructive-foreground: var(--neutral-lightest);
     --border: var(--neutral-mid-accent);
     --input: var(--neutral-dark);

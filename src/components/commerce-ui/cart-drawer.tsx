@@ -11,6 +11,8 @@ export const CartDrawerButton: React.FC = () => {
   const { items, clearCart } = useCart();
   const total = items.reduce((acc, item) => acc + item.precoFinal * item.quantidade, 0);
 
+  console.log("Cart items:", items);
+
   return (
     <>
       <div className="fixed bottom-4 left-0 right-0 z-50 flex justify-center pointer-events-none">
@@ -23,7 +25,7 @@ export const CartDrawerButton: React.FC = () => {
           <DrawerHeader>
             <DrawerTitle>Seu Carrinho</DrawerTitle>
           </DrawerHeader>
-          <ScrollArea className="max-h-[60vh] px-2">
+          <ScrollArea className="h-[72vh] md:h-[60vh] px-2">
             {items.length === 0 ? (
               <div className="text-center text-muted-foreground py-8">Seu carrinho está vazio.</div>
             ) : (
@@ -67,7 +69,7 @@ export const CartDrawerButton: React.FC = () => {
             >
               Finalizar compra
             </Button>
-            <Button variant="outline" className="w-full" onClick={clearCart} disabled={items.length === 0}>
+            <Button variant="destructive" className="w-full" onClick={clearCart} disabled={items.length === 0}>
               Limpar carrinho
             </Button>
           </DrawerFooter>

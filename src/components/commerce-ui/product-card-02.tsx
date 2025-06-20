@@ -44,7 +44,7 @@ function ProductCard_02({
 }: ProductCard_02Props = {}) {
   return (
     <div
-      className={`bg-card grid w-full ${col ? "grid-cols-2" : "grid-cols-4"} gap-6 rounded-lg border p-4 items-center`}
+      className={`bg-card  w-full ${col ? "flex flex-col" : "grid grid-cols-4 items-center"} gap-6 rounded-lg border p-4 `}
     >
       <div className="relative col-span-4 w-full md:col-span-2">
         {discount && (
@@ -55,52 +55,51 @@ function ProductCard_02({
         <ImageViewer imageUrl={imageUrl} col={col} />
       </div>
 
-      <div className="col-span-4 flex flex-col gap-6 md:col-span-2">
-        <div className="flex flex-col gap-2">
-          <p className="heading-03-bold text-card-foreground">{title}</p>
-          <div className="flex flex-row flex-wrap items-center gap-2">
-            <StarRatingFractions readOnly value={rating} />
-            <p className="body-title text-primary">({rating})</p>
-            <p className="body-callout text-muted-foreground">{reviewCount} avaliações</p>
+      <div className={`col-span-4 flex flex-col gap-6 md:col-span-2 justify-between ${col && "h-full"}`}>
+        <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-2">
+            <p className="heading-03-bold text-card-foreground">{title}</p>
+            <div className="flex flex-row flex-wrap items-center gap-2">
+              <StarRatingFractions readOnly value={rating} />
+              <p className="body-title text-primary">({rating})</p>
+              <p className="body-callout text-muted-foreground">{reviewCount} avaliações</p>
+            </div>
+            <p className="body-paragraph text-muted-foreground">{description}</p>
           </div>
-          <p className="body-paragraph text-muted-foreground">{description}</p>
-        </div>
 
-        <div className="flex flex-col gap-2">
-          {destaque ? (
-            <div className="flex flex-row items-center gap-2">
-              <div className="w-fit rounded-lg border border-primary bg-primary/30 px-2 py-1 body-callout-bold text-primary uppercase">
-                Destaque
+          <div className="flex flex-col gap-2">
+            {destaque ? (
+              <div className="flex flex-row items-center gap-2">
+                <div className="w-fit rounded-lg border border-primary bg-primary/30 px-2 py-1 body-callout-bold text-primary uppercase">
+                  Destaque
+                </div>
+                <p className="body-callout text-muted-foreground">Destaque do mês</p>
               </div>
-              <p className="body-callout text-muted-foreground">Destaque do mês</p>
-            </div>
-          ) : (
-            <div className="w-fit rounded-lg border border-destructive bg-destructive/30 px-2 py-1 body-callout-bold text-destructive uppercase">
-              Fora de Estoque
-            </div>
-          )}
+            ) : (
+              <div className="w-fit rounded-lg border border-destructive bg-destructive/30 px-2 py-1 body-callout-bold text-destructive uppercase">
+                Fora de Estoque
+              </div>
+            )}
 
-          {hasShipping && (
-            <p>
-              <a
-                href="#"
-                className="body-caption underline underline-offset-4 opacity-80 hover:opacity-100 text-primary"
-              >
-                {shippingText}
-              </a>{" "}
-              <span className="body-caption text-muted-foreground">em todos os pedidos</span>
-            </p>
-          )}
+            {hasShipping && (
+              <p>
+                <a
+                  href="#"
+                  className="body-caption underline underline-offset-4 opacity-80 hover:opacity-100 text-primary"
+                >
+                  {shippingText}
+                </a>{" "}
+                <span className="body-caption text-muted-foreground">em todos os pedidos</span>
+              </p>
+            )}
+          </div>
+
+          <PriceFormat prefix={prefix} value={price} className="text-4xl heading-03-bold text-primary" />
         </div>
-
-        <PriceFormat prefix={prefix} value={price} className="text-4xl heading-03-bold text-primary" />
 
         <div className="flex flex-row flex-wrap gap-4">
           <Button variant="outline" size="lg" className="w-full md:w-fit body-title-bold" onClick={onAddToCart}>
             Adicionar no carrinho
-          </Button>
-          <Button size="lg" className="w-full md:w-fit body-title-bold" onClick={onBuyNow}>
-            Comprar
           </Button>
         </div>
       </div>

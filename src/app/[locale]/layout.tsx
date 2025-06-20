@@ -70,7 +70,7 @@ export default async function RootLayout({
           {children}
           <CartDrawerButton />
           <Toaster />
-          <Footer />
+          {/* <Footer /> */}
         </Providers>
       </body>
     </html>

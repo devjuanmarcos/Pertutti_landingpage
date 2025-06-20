@@ -30,13 +30,16 @@ function buildZodSchema(grupos: GrupoOpcoesPersonalizacao[]) {
   const shape: Record<string, any> = {};
   grupos.forEach((grupo, idx) => {
     const key = `grupo_${idx}`;
+    const hasOpcoes = Array.isArray(grupo.opcoes) && grupo.opcoes.length > 0;
     if (grupo.tipo === "unica_opcao") {
-      shape[key] = grupo.obrigatorio ? z.string({ required_error: "Selecione uma opção" }) : z.string().optional();
+      shape[key] = grupo.obrigatorio && hasOpcoes
+        ? z.string({ required_error: "Selecione uma opção" })
+        : z.string().optional();
     } else {
       let arr = z.array(z.string());
       if (grupo.max_opcoes) arr = arr.max(grupo.max_opcoes, `Máximo de ${grupo.max_opcoes}`);
-      if (grupo.obrigatorio) arr = arr.min(1, "Selecione pelo menos uma opção");
-      shape[key] = arr;
+      if (grupo.obrigatorio && hasOpcoes) arr = arr.min(1, "Selecione pelo menos uma opção");
+      shape[key] = arr.optional();
     }
   });
   return z.object(shape);
@@ -65,21 +68,24 @@ export const ProductCustomizationModal: React.FC<ProductCustomizationModalProps>
 
   // Atualiza o preço final conforme as opções selecionadas
   React.useEffect(() => {
-    let total = produto.preco_promocional || produto.preco || 0;
-    grupos.forEach((grupo, idx) => {
-      const key = `grupo_${idx}`;
-      const value = form.watch(key);
-      if (grupo.tipo === "unica_opcao" && typeof value === "string") {
-        const opc = grupo.opcoes.find((o) => o.nome === value);
-        if (opc?.preco_adicional) total += opc.preco_adicional;
-      } else if (grupo.tipo === "multipla_opcao" && Array.isArray(value)) {
-        value.forEach((v: string) => {
-          const opc = grupo.opcoes.find((o) => o.nome === v);
+    const subscription = form.watch((allValues) => {
+      let total = produto.preco_promocional || produto.preco || 0;
+      grupos.forEach((grupo, idx) => {
+        const key = `grupo_${idx}`;
+        const value = allValues[key];
+        if (grupo.tipo === "unica_opcao" && typeof value === "string") {
+          const opc = grupo.opcoes.find((o) => o.nome === value);
           if (opc?.preco_adicional) total += opc.preco_adicional;
-        });
-      }
+        } else if (grupo.tipo === "multipla_opcao" && Array.isArray(value)) {
+          value.forEach((v: string) => {
+            const opc = grupo.opcoes.find((o) => o.nome === v);
+            if (opc?.preco_adicional) total += opc.preco_adicional;
+          });
+        }
+      });
+      setPrecoFinal(total);
     });
-    setPrecoFinal(total);
+    return () => subscription.unsubscribe();
   }, [form, grupos, produto]);
 
   const handleFormSubmit = (data: any) => {
